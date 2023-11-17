@@ -49,6 +49,7 @@ body {
 .menubox {
   font-size: 24px;
   font-family: Inter;
+  cursor: pointer;
 }
 #title {
   height: calc(100vh - 70px);
@@ -127,6 +128,8 @@ body {
   font-weight: bold;
   box-shadow: 4px 4px rgba(0, 0, 0, 0.5);
   border-radius: 2px;
+  cursor: pointer;
+  user-select: none;
 }
 .newsText {
   background-color: #ff9900;
@@ -138,11 +141,13 @@ body {
   flex-direction: row;
   justify-content: space-between;
   padding-inline: 46px;
+  user-select: none;
 }
 .newsBox {
   position: relative;
   width: 228px;
   font-size: 16px;
+  cursor: pointer;
 }
 .point {
   text-align: center;
@@ -183,6 +188,7 @@ body {
   justify-content: space-between;
   padding-inline: 33px;
   gap: 33px;
+  cursor: pointer;
 }
 .policyBox {
   background-color: #cce3f0;
@@ -255,6 +261,8 @@ body {
   height: 16px;
   border-radius: 100%;
   background-color: #d9d9d9;
+  cursor: pointer;
+  user-select: none;
 }
 .pPoint1 {
   position: relative;
@@ -306,6 +314,8 @@ body {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
+  cursor: pointer;
+  user-select: none;
 }
 .donateName {
   font-size: 18px;
@@ -319,6 +329,8 @@ body {
   font-size: 16px;
   color: #123c7a;
   text-align: center;
+  cursor: pointer;
+  user-select: none;
 }
 .footerText {
   padding: 100px 20px;
