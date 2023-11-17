@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  /* transition: 0.5s; */
+  min-width: 1370px;
 }
 
 .disIB {
