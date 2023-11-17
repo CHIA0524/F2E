@@ -1,0 +1,329 @@
+body {
+  margin: 0;
+  /* transition: 0.5s; */
+}
+
+.disIB {
+  display: inline-block;
+  height: 44px;
+  box-sizing: border-box;
+}
+
+#navbar {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 70px;
+  padding: 13px 3vw;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+.navbox {
+  /* width: 50px; */
+  /* background-color: red; */
+  height: 44px;
+  box-sizing: border-box;
+}
+
+.navlogo {
+  font-size: 36px;
+  font-family: Irish Grover;
+}
+
+.logoText {
+  position: relative;
+  bottom: 5px;
+}
+
+.navmenu {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 324px;
+  height: 44px;
+  padding-top: 10px;
+}
+.menubox {
+  font-size: 24px;
+  font-family: Inter;
+}
+#title {
+  height: calc(100vh - 70px);
+  background: radial-gradient(
+    circle farthest-corner at right top,
+    #e4f5ff 0%,
+    #d0eeff 25%,
+    #48a0d1 100%
+  );
+  display: flex;
+}
+.titleBox {
+  height: calc(100vh - 70px);
+}
+.titleText {
+  width: calc(132px + 6vw);
+  background-color: #ff9900;
+  font-size: 140px;
+  padding-top: calc((100vh - 582px) / 2);
+  box-sizing: border-box;
+}
+.titleWord {
+  position: relative;
+  width: fit-content;
+  margin-inline: auto;
+}
+.Stroke {
+  position: absolute;
+  left: calc(50% - 73px);
+}
+.titleMain {
+  width: calc(100vw - 132px - 6vw);
+  flex: auto;
+  display: flex;
+}
+.titleMainImg {
+  height: 100%;
+}
+.dogImg {
+  height: calc(100vh - 70px);
+  padding-top: calc((100vh - 601px));
+  box-sizing: border-box;
+}
+.titleMainWord {
+  flex: auto;
+  margin-inline: auto;
+  padding-top: 205px;
+  box-sizing: border-box;
+}
+.titleWordTop {
+  width: 703px;
+  margin-inline: auto;
+}
+.titleWordDown {
+  width: 709px;
+  margin-inline: auto;
+  line-height: 1.5;
+  font-size: 18px;
+  margin-top: 32px;
+  padding: 20px;
+  font-weight: bold;
+  color: rgba(35, 61, 151, 80%);
+}
+.news {
+  height: 100vh;
+  background: #fff7ec;
+  padding: 11vh 7vw;
+  box-sizing: border-box;
+}
+.boxTitle {
+  padding: 10px;
+  width: fit-content;
+  margin-inline: auto;
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: bold;
+  box-shadow: 4px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 2px;
+}
+.newsText {
+  background-color: #ff9900;
+  margin-bottom: 100px;
+}
+.Allnews {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-inline: 46px;
+}
+.newsBox {
+  position: relative;
+  width: 228px;
+  font-size: 16px;
+}
+.point {
+  text-align: center;
+  font-size: 160px;
+  color: #72b8df;
+  width: 228px;
+  position: absolute;
+  top: 155px;
+}
+.timeLine {
+  margin-top: 45px;
+  border: #123c7a 1px solid;
+}
+.AllnewsText {
+  padding-inline: 30px;
+  text-align: center;
+  margin-top: 45px;
+  line-height: 2rem;
+}
+.time123C7A {
+  text-align: center;
+  color: #123c7a;
+  font-size: 20px;
+}
+.policy {
+  height: 100vh;
+  background: #f8f8f8;
+  padding: 11vh 33px;
+  box-sizing: border-box;
+}
+.policyText {
+  background-color: #123c7a;
+  margin-bottom: 100px;
+}
+.AllpolicyBox {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-inline: 33px;
+  gap: 33px;
+}
+.policyBox {
+  background-color: #cce3f0;
+  border-radius: 10px;
+  padding-inline: 33px;
+  padding-top: 37px;
+  box-sizing: border-box;
+}
+.policyBox1 {
+  flex: 1;
+  height: 360px;
+  position: relative;
+  top: 15px;
+}
+.policyBox2 {
+  flex: 2.5;
+  height: 390px;
+  padding-top: 68px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+  padding-inline: 26px;
+}
+.policyBoxImg {
+  width: fit-content;
+  margin-inline: auto;
+}
+.policyImgTitle {
+  color: #123c7a;
+  font-size: 16px;
+  font-weight: bold;
+}
+.policyImgTitle2 {
+  color: #123c7a;
+  font-size: 24px;
+  font-weight: bold;
+}
+.policyImgText {
+  flex: 1.7;
+}
+.policyNote {
+  padding-inline-start: 15px;
+  margin-top: 35px;
+  color: #123c7a;
+  font-size: 16px;
+}
+.donate {
+  height: 100vh;
+  background: #fff7ec;
+  padding: 11vh 7vw;
+  box-sizing: border-box;
+}
+.donateText {
+  background-color: #ff9900;
+  margin-bottom: 30px;
+}
+.policyPoint {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+  max-width: 124px;
+  margin-inline: auto;
+  margin-top: 16px;
+}
+.pPoint {
+  width: 16px;
+  height: 16px;
+  border-radius: 100%;
+  background-color: #d9d9d9;
+}
+.pPoint1 {
+  position: relative;
+  top: 2px;
+}
+.pPoint2 {
+  width: 20px;
+  height: 20px;
+  background-color: #aca4a4;
+}
+.donateTextWord {
+  color: #123c7a;
+  font-size: 32px;
+  font-weight: bolder;
+  text-align: center;
+  padding: 8px;
+}
+.donateTextWord2 {
+  font-size: 18px;
+  text-align: center;
+}
+.donateTextWord3 {
+  font-size: 40px;
+  font-weight: bolder;
+  text-align: center;
+  padding: 10px;
+}
+.c-D49314 {
+  color: #d49314;
+}
+.AlldonateBox {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 700px;
+  margin-inline: auto;
+  margin-top: 40px;
+}
+.donateBox {
+  width: 243px;
+  margin-bottom: 40px;
+}
+.donateCard {
+  border: 1px solid #123c7a;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.donateName {
+  font-size: 18px;
+  color: #123c7a;
+}
+.donateAmount {
+  font-size: 20px;
+}
+.donateNP {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #123c7a;
+  text-align: center;
+}
+.footerText {
+  padding: 100px 20px;
+  font-size: 24px;
+  color: #123c7a;
+  text-align: center;
+}
