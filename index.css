@@ -169,7 +169,6 @@ body {
 }
 .policy {
   height: 100vh;
-  background: #f8f8f8;
   padding: 11vh 33px;
   box-sizing: border-box;
 }
@@ -323,6 +322,7 @@ body {
 }
 .footerText {
   padding: 100px 20px;
+  background-color: #f8f8f8;
   font-size: 24px;
   color: #123c7a;
   text-align: center;
